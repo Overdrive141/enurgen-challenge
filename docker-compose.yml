@@ -1,0 +1,7 @@
+services:
+  server:
+    restart: on-failure
+    hostname: extract-ms
+    build: .
+    ports:
+      - "3000:3000"
